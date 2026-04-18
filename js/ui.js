@@ -1,11 +1,18 @@
-// Manipulação do DOM
-window.populateRoutes = function() {
-  const select = document.getElementById("route");
-  window.ROUTES.forEach(route => {
-    const option = document.createElement("option");
-    option.value = route.id;
-    option.textContent = route.name;
-    select.appendChild(option);
+// Preenche combobox de cidades
+window.populateCities = function() {
+  const fromSelect = document.getElementById("cityFrom");
+  const toSelect = document.getElementById("cityTo");
+
+  window.CITIES.forEach(city => {
+    const optionFrom = document.createElement("option");
+    optionFrom.value = city;
+    optionFrom.textContent = city;
+    fromSelect.appendChild(optionFrom);
+
+    const optionTo = document.createElement("option");
+    optionTo.value = city;
+    optionTo.textContent = city;
+    toSelect.appendChild(optionTo);
   });
 };
 

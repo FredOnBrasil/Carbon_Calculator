@@ -14,6 +14,8 @@ header, footer {
 
 main {
   padding: 2rem;
+  max-width: 800px;
+  margin: auto;
 }
 
 section {
@@ -30,8 +32,27 @@ select, button {
   font-size: 1rem;
 }
 
+.transport-options {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.transport-options label {
+  background: #ecf0f1;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.transport-options label:hover {
+  background: #dfe6e9;
+}
+
 #result {
   font-weight: bold;
   color: #27ae60;
   margin-top: 1rem;
+  font-size: 1.2rem;
 }
