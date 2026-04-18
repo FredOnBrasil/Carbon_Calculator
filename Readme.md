@@ -1,6 +1,6 @@
 # 🌍 Calculadora de Emissões de Carbono
 
-A **Calculadora de Carbono** é uma aplicação web desenvolvida para estimar as emissões de dióxido de carbono (CO₂) associadas a diferentes rotas e meios de transporte. O projeto tem como objetivo promover a conscientização sobre o impacto ambiental das escolhas de mobilidade e incentivar práticas de descarbonização.
+A **Calculadora de Carbono** é uma aplicação web desenvolvida para estimar as emissões de dióxido de carbono (CO₂) associadas a diferentes rotas e meios de transporte. O objetivo é promover a conscientização sobre o impacto ambiental das escolhas de mobilidade e incentivar práticas de descarbonização.
 
 ---
 
@@ -19,9 +19,9 @@ A **Calculadora de Carbono** é uma aplicação web desenvolvida para estimar as
 
 ## ⚙️ Funcionamento
 
-1. O usuário seleciona uma rota e um meio de transporte.
-2. O sistema aplica fatores médios de emissão de CO₂ por quilômetro.
-3. O resultado é exibido em tempo real na interface.
+1. O usuário seleciona uma rota e um meio de transporte.  
+2. O sistema aplica fatores médios de emissão de CO₂ por quilômetro.  
+3. O resultado é exibido em tempo real na interface.  
 
 ---
 
@@ -41,7 +41,7 @@ A **Calculadora de Carbono** é uma aplicação web desenvolvida para estimar as
 A descarbonização consiste em reduzir ou eliminar as emissões de gases de efeito estufa, especialmente o CO₂.  
 O setor de transportes é responsável por uma parcela significativa dessas emissões globais.  
 
-Ferramentas como esta calculadora permitem:
+Esta calculadora contribui para:
 - **Conscientização individual** sobre o impacto das escolhas de transporte.  
 - **Comparação entre modais** para incentivar alternativas mais sustentáveis.  
 - **Planejamento de compensação** por meio de reflorestamento ou créditos de carbono.  
@@ -57,8 +57,13 @@ Ferramentas como esta calculadora permitem:
 
 ---
 
-## 📌 Objetivo
+## 🛠️ Instalação e Uso
 
-Este projeto é uma iniciativa educacional e de conscientização, voltada para apoiar práticas de mobilidade sustentável e contribuir para a transição rumo a uma economia de baixo carbono.
+### Pré-requisitos
+- Navegador moderno (Chrome, Firefox, Edge, Safari).  
+- Nenhuma dependência externa é necessária.  
 
----
+### Passos
+1. Clone ou baixe este repositório:
+   ```bash
+   git clone https://github.com/seuusuario/carbon-calculator.git
