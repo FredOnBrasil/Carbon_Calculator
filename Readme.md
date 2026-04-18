@@ -3,6 +3,10 @@
 A **Calculadora de Carbono** é uma aplicação web desenvolvida para estimar as emissões de dióxido de carbono (CO₂) associadas a diferentes rotas e meios de transporte. O objetivo é promover a conscientização sobre o impacto ambiental das escolhas de mobilidade e incentivar práticas de descarbonização.
 
 ---
+## Link para este projeto funcionando online:
+
+[Calculadora Online](https://fredonbrasil.github.io/Carbon_Calculator/)
+---
 
 ## 📑 Estrutura do Projeto
 
