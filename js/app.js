@@ -1,14 +1,23 @@
-// Inicialização
 document.addEventListener("DOMContentLoaded", () => {
-  window.populateRoutes();
+  window.populateCities();
 
   document.getElementById("calculateBtn").addEventListener("click", () => {
-    const routeId = document.getElementById("route").value;
-    const transport = document.getElementById("transport").value;
+    const cityFrom = document.getElementById("cityFrom").value;
+    const cityTo = document.getElementById("cityTo").value;
+    const transport = document.querySelector("input[name='transport']:checked").value;
 
-    const route = window.ROUTES.find(r => r.id === routeId);
+    if (cityFrom === cityTo) {
+      window.showResult("Selecione cidades diferentes para calcular.");
+      return;
+    }
+
+    const route = window.ROUTES.find(r => r.from === cityFrom && r.to === cityTo);
+    if (!route) {
+      window.showResult("Rota não disponível.");
+      return;
+    }
+
     const emission = window.calculateEmission(route.distance, transport);
-
     window.showResult(emission);
   });
 });
