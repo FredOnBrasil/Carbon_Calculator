@@ -1,28 +1,68 @@
-# Calculadora de Carbono
+Claro, Fred! Aqui está uma versão mais profissional e estruturada do **README** para sua Calculadora de Carbono:
 
-Este projeto é uma **Calculadora de Emissões de Carbono** que permite ao usuário selecionar uma rota e um meio de transporte para estimar a quantidade de CO₂ emitida.
+---
 
-## Estrutura
-- **index.html**: Estrutura principal da aplicação.
-- **css/style.css**: Estilos visuais.
-- **js/routes-data.js**: Dados de rotas (distâncias).
-- **js/config.js**: Constantes de fatores de emissão.
-- **js/calculator.js**: Lógica de cálculo.
-- **js/ui.js**: Manipulação da interface.
-- **js/app.js**: Inicialização e eventos.
-- **readme.md**: Documentação.
+# 🌍 Calculadora de Emissões de Carbono
 
-## Como funciona
-1. O usuário escolhe uma rota e um meio de transporte.
-2. O sistema calcula as emissões com base em fatores médios de CO₂ por quilômetro.
-3. O resultado é exibido na tela.
+A **Calculadora de Carbono** é uma aplicação web desenvolvida para estimar as emissões de dióxido de carbono (CO₂) associadas a diferentes rotas e meios de transporte. O projeto tem como objetivo promover a conscientização sobre o impacto ambiental das escolhas de mobilidade e incentivar práticas de descarbonização.
 
-## Sobre Descarbonização
-A descarbonização é o processo de redução das emissões de gases de efeito estufa, especialmente o dióxido de carbono (CO₂).  
-O setor de transportes é responsável por uma parcela significativa dessas emissões.  
-Ferramentas como esta calculadora ajudam a conscientizar sobre o impacto das escolhas de mobilidade e incentivam alternativas mais sustentáveis, como transporte coletivo ou ferroviário.
+---
 
-## Próximos Passos
-- Adicionar mais rotas e meios de transporte.
-- Incluir compensação de carbono (ex.: árvores necessárias para neutralizar).
-- Integrar com APIs de mapas para cálculo dinâmico de distâncias.
+## 📑 Estrutura do Projeto
+
+- **index.html** → Estrutura principal da aplicação e integração dos scripts.
+- **css/style.css** → Estilos visuais e responsividade.
+- **js/routes-data.js** → Dados de rotas e distâncias (objeto global).
+- **js/config.js** → Constantes de fatores médios de emissão de CO₂ (objeto global).
+- **js/calculator.js** → Lógica de cálculo das emissões (funções globais).
+- **js/ui.js** → Manipulação da interface e DOM (funções globais).
+- **js/app.js** → Inicialização de eventos e integração da aplicação.
+- **readme.md** → Documentação completa do projeto.
+
+---
+
+## ⚙️ Funcionamento
+
+1. O usuário seleciona uma rota e um meio de transporte.
+2. O sistema aplica fatores médios de emissão de CO₂ por quilômetro.
+3. O resultado é exibido em tempo real na interface.
+
+---
+
+## 📊 Fatores de Emissão Utilizados
+
+| Transporte | Emissão média (kg CO₂/km) |
+|------------|---------------------------|
+| Carro      | 0.192                     |
+| Ônibus     | 0.105                     |
+| Trem       | 0.041                     |
+| Avião      | 0.255                     |
+
+---
+
+## 🌱 Descarbonização e Impacto
+
+A descarbonização consiste em reduzir ou eliminar as emissões de gases de efeito estufa, especialmente o CO₂.  
+O setor de transportes é responsável por uma parcela significativa dessas emissões globais.  
+
+Ferramentas como esta calculadora permitem:
+- **Conscientização individual** sobre o impacto das escolhas de transporte.  
+- **Comparação entre modais** para incentivar alternativas mais sustentáveis.  
+- **Planejamento de compensação** por meio de reflorestamento ou créditos de carbono.  
+
+---
+
+## 🚀 Possíveis Extensões
+
+- Inclusão de mais rotas e meios de transporte.  
+- Cálculo de compensação em árvores necessárias para neutralizar emissões.  
+- Integração com APIs de mapas para cálculo dinâmico de distâncias.  
+- Relatórios gráficos de impacto ambiental.  
+
+---
+
+## 📌 Objetivo
+
+Este projeto é uma iniciativa educacional e de conscientização, voltada para apoiar práticas de mobilidade sustentável e contribuir para a transição rumo a uma economia de baixo carbono.
+
+---
