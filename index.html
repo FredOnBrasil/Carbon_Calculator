@@ -7,23 +7,40 @@
 </head>
 <body>
   <header>
-    <h1>Calculadora de Emissões de Carbono</h1>
+    <h1>🌍 Calculadora de Emissões de Carbono</h1>
   </header>
 
   <main>
-    <section>
-      <label for="route">Selecione a rota:</label>
-      <select id="route"></select>
+    <!-- Seleção de cidades -->
+    <section class="city-selection">
+      <label for="cityFrom">Cidade de origem:</label>
+      <select id="cityFrom"></select>
+
+      <label for="cityTo">Cidade de destino:</label>
+      <select id="cityTo"></select>
     </section>
 
-    <section>
-      <label for="transport">Modo de transporte:</label>
-      <select id="transport">
-        <option value="car">Carro</option>
-        <option value="bus">Ônibus</option>
-        <option value="train">Trem</option>
-        <option value="plane">Avião</option>
-      </select>
+    <!-- Seleção de veículos com ícones -->
+    <section class="transport-selection">
+      <h2>Selecione o meio de transporte:</h2>
+      <div class="transport-options">
+        <label>
+          <input type="radio" name="transport" value="car" checked>
+          🚗 Carro
+        </label>
+        <label>
+          <input type="radio" name="transport" value="bus">
+          🚌 Ônibus
+        </label>
+        <label>
+          <input type="radio" name="transport" value="train">
+          🚆 Trem
+        </label>
+        <label>
+          <input type="radio" name="transport" value="plane">
+          ✈️ Avião
+        </label>
+      </div>
     </section>
 
     <section>
